@@ -53,8 +53,9 @@ Assets/
 ## Getting Started
 
 1. Clone the repository
-2. Open in Unity 6 (6000.0.x or later)
-3. Open `Assets/_Project/Scenes/_Persistent.unity` and press Play, or build for Android/iOS
+2. Download Vuforia Engine 11.4.4 from the [Vuforia Developer Portal](https://developer.vuforia.com/downloads/sdk) and place `com.ptc.vuforia.engine-11.4.4.tgz` inside the `Packages/` folder
+3. Open in Unity 6 (6000.0.x or later) — Unity will resolve the package automatically
+4. Open `Assets/_Project/Scenes/_Persistent.unity` and press Play, or build for Android/iOS
 
 AR requires a physical device with ARCore (Android 8.0+) or ARKit (iOS 11+). The AR scene will fall back to in-editor placement for testing.
 
