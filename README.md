@@ -6,13 +6,9 @@ The app covers heart, brain, and stomach — each with a detail screen, a fact t
 
 ## Screenshots
 
-| Splash | Picker | Detail | Quiz |
-|--------|--------|--------|------|
-| ![Splash](Screenshots/01_Splash.png) | ![Picker](Screenshots/03_Picker.png) | ![Detail](Screenshots/04_Detail.png) | ![Quiz](Screenshots/06_Quiz.png) |
-
-| Onboarding | AR | Settings |
-|------------|-----|---------|
-| ![Onboarding](Screenshots/02_Onboarding.png) | ![AR](Screenshots/05_AR.png) | ![Settings](Screenshots/07_Settings.png) |
+| Splash | Onboarding | Picker | Detail | AR |
+|--------|------------|--------|--------|----|
+| ![Splash](Screenshots/01_Splash.png) | ![Onboarding](Screenshots/02_Onboarding.png) | ![Picker](Screenshots/03_Picker.png) | ![Detail](Screenshots/04_Detail.png) | ![AR](Screenshots/05_AR.png) |
 
 ## Tech Stack
 
