@@ -1,0 +1,40 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+Recordings/
+
+# Visual Studio / Rider
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+.vs/
+ExportedObj/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# JetBrains
+.idea/
+*.iml
+
+# Vuforia (legacy, removed)
+QCAR/
+
+# Large Vuforia package binaries
+Packages/com.ptc.vuforia.engine*.tgz
+
+# AI agent context files
+CLAUDE.md
+AGENTS.md

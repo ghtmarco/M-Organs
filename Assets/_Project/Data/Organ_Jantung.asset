@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef629798278171449bd9e35b056d9f1f, type: 3}
+  m_Name: Organ_Jantung
+  m_EditorClassIdentifier: Assembly-CSharp::OrganDefinition
+  organKey: jantung
+  number: 01
+  latinName: Cor
+  organTone: {r: 0.54509807, g: 0.11764706, b: 0.1764706, a: 1}
+  paletteHue: {r: 0.47843137, g: 0.43529412, b: 0.39215687, a: 1}
+  paletteSoft: {r: 0.9098039, g: 0.88235295, b: 0.8235294, a: 1}
+  paletteDeep: {r: 0.5411765, g: 0.0784314, b: 0.1411765, a: 1}
+  nameID: Jantung
+  nameEN: Heart
+  kickerID: Sistem peredaran
+  taglineID: Otot yang tidak pernah istirahat.
+  paragraphID: Empat ruang. Dua atrium di atas, dua ventrikel di bawah. Setiap detak
+    mendorong kira-kira 70 ml darah keluar dari ventrikel kiri.
+  funfactID: Seumur hidup, jantungmu memompa cukup darah untuk mengisi tiga kapal
+    tanker.
+  kickerEN: Circulatory
+  taglineEN: A muscle that never rests.
+  paragraphEN: Four chambers. Two atria up top, two ventricles below. Each beat pushes
+    about 70 ml out of the left ventricle.
+  funfactEN: Across a lifetime, your heart pumps enough blood to fill three oil tankers.
+  facts:
+  - labelID: Detak/hari
+    labelEN: Beats/day
+    value: "\u2248100.000"
+  - labelID: Berat
+    labelEN: Weight
+    value: "\u2248300 g"
+  - labelID: Darah/menit
+    labelEN: Blood/min
+    value: 5 L
+  quiz:
+  - questionID: Berapa ruang di dalam jantung?
+    questionEN: How many chambers in the heart?
+    answersID:
+    - 2
+    - 4
+    - 6
+    - 8
+    answersEN:
+    - 2
+    - 4
+    - 6
+    - 8
+    correctIndex: 1
+  - questionID: 'Ruang yang memompa darah ke seluruh tubuh:'
+    questionEN: Which chamber feeds the whole body?
+    answersID:
+    - Atrium kanan
+    - Ventrikel kiri
+    - Atrium kiri
+    - Ventrikel kanan
+    answersEN:
+    - Right atrium
+    - Left ventricle
+    - Left atrium
+    - Right ventricle
+    correctIndex: 1
+  - questionID: 'Volume darah yang dipompa per menit:'
+    questionEN: 'Liters of blood per minute:'
+    answersID:
+    - 1 L
+    - 5 L
+    - 15 L
+    - 20 L
+    answersEN:
+    - 1 L
+    - 5 L
+    - 15 L
+    - 20 L
+    correctIndex: 1
+  icon: {fileID: 3286163911610860551, guid: bf8a03aaf60720e44adda2253fbfcd40, type: 3}
+  prefab3D: {fileID: 0}

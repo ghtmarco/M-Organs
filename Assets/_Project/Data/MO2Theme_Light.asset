@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34b562eadea52dc44971c988884cf131, type: 3}
+  m_Name: MO2Theme_Light
+  m_EditorClassIdentifier: Assembly-CSharp::MO2ThemeData
+  paper: {r: 1.0, g: 0.9647059, b: 0.9254902, a: 1}
+  paperDeep: {r: 1.0, g: 0.9372549, b: 0.8509804, a: 1}
+  surface: {r: 1.0, g: 1.0, b: 1.0, a: 1}
+  surfaceMute: {r: 0.9843137, g: 0.9137255, b: 0.8235294, a: 1}
+  ink: {r: 0.1647059, g: 0.1176471, b: 0.0784314, a: 1}
+  ink2: {r: 0.3607843, g: 0.2901961, b: 0.2274510, a: 1}
+  inkMute: {r: 0.6078431, g: 0.5294118, b: 0.4509804, a: 1}
+  inkFaint: {r: 0.7843137, g: 0.7254902, b: 0.6588235, a: 1}
+  rule: {r: 0.1647059, g: 0.1176471, b: 0.0784314, a: 1}
+  ruleSoft: {r: 0.1647059, g: 0.1176471, b: 0.0784314, a: 0.08}
+  accent: {r: 1.0, g: 0.4156863, b: 0.3019608, a: 1}
+  accentInk: {r: 0.4784314, g: 0.1215686, b: 0.0588235, a: 1}
+  ok: {r: 0.1803922, g: 0.6823529, b: 0.4156863, a: 1}
+  isDark: 0

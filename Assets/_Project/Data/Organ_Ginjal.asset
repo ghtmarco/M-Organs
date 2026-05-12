@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef629798278171449bd9e35b056d9f1f, type: 3}
+  m_Name: Organ_Ginjal
+  m_EditorClassIdentifier: Assembly-CSharp::OrganDefinition
+  organKey: ginjal
+  number: 05
+  latinName: Ren
+  organTone: {r: 0.24705882, g: 0.3529412, b: 0.10196078, a: 1}
+  paletteHue: {r: 0.47843137, g: 0.43529412, b: 0.39215687, a: 1}
+  paletteSoft: {r: 0.9098039, g: 0.88235295, b: 0.8235294, a: 1}
+  paletteDeep: {r: 0.24705882, g: 0.3529412, b: 0.10196078, a: 1}
+  nameID: Ginjal
+  nameEN: Kidney
+  kickerID: Sistem ekskresi
+  taglineID: Dua penyaring kecil yang menjaga keseimbangan tubuh.
+  paragraphID: "Ginjal menyaring darah sekitar 50 kali per hari, membuang limbah
+    sebagai urin. Setiap ginjal berisi sekitar satu juta nefron \u2014 unit penyaring
+    mikroskopis yang menjaga kadar cairan, elektrolit, dan tekanan darah tetap stabil."
+  funfactID: "Ginjal menyaring sekitar 180 liter darah setiap hari \u2014 hampir
+    setara tiga drum penuh."
+  kickerEN: Excretory
+  taglineEN: Two small filters that keep your body in balance.
+  paragraphEN: "The kidneys filter blood about 50 times a day, removing waste as
+    urine. Each kidney contains around one million nephrons \u2014 microscopic filtering
+    units that keep fluid levels, electrolytes, and blood pressure stable."
+  funfactEN: "Your kidneys filter roughly 180 litres of blood every day \u2014 nearly
+    three full drums."
+  facts:
+  - labelID: Nefron
+    labelEN: Nephrons
+    value: ~1 juta/ginjal
+  - labelID: Saring/hari
+    labelEN: Filter/day
+    value: 180 liter
+  - labelID: Urin/hari
+    labelEN: Urine/day
+    value: "1\u20132 liter"
+  quiz:
+  - questionID: 'Unit penyaring terkecil di dalam ginjal disebut:'
+    questionEN: 'The smallest filtering unit inside the kidney is called:'
+    answersID:
+    - Glomerulus
+    - Nefron
+    - Ureter
+    - Korteks
+    answersEN:
+    - Glomerulus
+    - Nephron
+    - Ureter
+    - Cortex
+    correctIndex: 1
+  - questionID: Berapa liter darah yang disaring ginjal per hari?
+    questionEN: How many litres of blood do the kidneys filter per day?
+    answersID:
+    - 5 liter
+    - 20 liter
+    - 180 liter
+    - 500 liter
+    answersEN:
+    - 5 litres
+    - 20 litres
+    - 180 litres
+    - 500 litres
+    correctIndex: 2
+  - questionID: 'Produk buangan utama yang dikeluarkan ginjal:'
+    questionEN: 'The main waste product expelled by the kidneys:'
+    answersID:
+    - Karbon dioksida
+    - Empedu
+    - Urin
+    - Keringat
+    answersEN:
+    - Carbon dioxide
+    - Bile
+    - Urine
+    - Sweat
+    correctIndex: 2
+  icon: {fileID: 3286163911610860551, guid: b0f878decee7e9d4d954bf729634753e, type: 3}
+  prefab3D: {fileID: 0}

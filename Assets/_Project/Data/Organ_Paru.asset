@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef629798278171449bd9e35b056d9f1f, type: 3}
+  m_Name: Organ_Paru
+  m_EditorClassIdentifier: Assembly-CSharp::OrganDefinition
+  organKey: paru
+  number: 04
+  latinName: Pulmo
+  organTone: {r: 0.05490196, g: 0.30196077, b: 0.4392157, a: 1}
+  paletteHue: {r: 0.3647059, g: 0.7882353, b: 0.9411765, a: 1}
+  paletteSoft: {r: 0.8039216, g: 0.92941177, b: 0.9843137, a: 1}
+  paletteDeep: {r: 0.05490196, g: 0.30196077, b: 0.4392157, a: 1}
+  nameID: Paru-paru
+  nameEN: Lungs
+  kickerID: Sistem pernapasan
+  taglineID: Dua kantong udara yang memberi oksigen ke seluruh tubuh.
+  paragraphID: Paru-paru menyerap oksigen dari udara dan melepaskan karbon dioksida.
+    Setiap paru terdiri dari jutaan kantung kecil bernama alveoli yang memperluas
+    permukaan tukar gas menjadi setara lapangan tenis.
+  funfactID: "Jika semua alveoli dibentangkan, luasnya bisa mencapai 70 m\xB2 \u2014
+    seluas setengah lapangan tenis."
+  kickerEN: Respiratory
+  taglineEN: Two air sacs delivering oxygen to your whole body.
+  paragraphEN: The lungs absorb oxygen from air and release carbon dioxide. Each
+    lung contains millions of tiny sacs called alveoli that expand the gas-exchange
+    surface to the size of a tennis court.
+  funfactEN: "If all your alveoli were spread flat, they\u2019d cover about 70 m\xB2
+    \u2014 half a tennis court."
+  facts:
+  - labelID: Alveoli
+    labelEN: Alveoli
+    value: ~480 juta
+  - labelID: Udara/menit
+    labelEN: Air/min
+    value: 6 liter
+  - labelID: Napas/hari
+    labelEN: Breaths/day
+    value: ~20.000x
+  quiz:
+  - questionID: 'Nama kantung udara kecil di paru-paru:'
+    questionEN: 'Tiny air sacs inside the lungs are called:'
+    answersID:
+    - Bronkus
+    - Trakea
+    - Alveoli
+    - Pleura
+    answersEN:
+    - Bronchus
+    - Trachea
+    - Alveoli
+    - Pleura
+    correctIndex: 2
+  - questionID: Berapa kira-kira napas yang kita ambil per hari?
+    questionEN: Roughly how many breaths do we take per day?
+    answersID:
+    - 2.000
+    - 10.000
+    - 20.000
+    - 50.000
+    answersEN:
+    - 2,000
+    - 10,000
+    - 20,000
+    - 50,000
+    correctIndex: 2
+  - questionID: Gas apa yang dilepaskan paru-paru ke udara?
+    questionEN: Which gas do the lungs release into the air?
+    answersID:
+    - Oksigen
+    - Nitrogen
+    - Karbon dioksida
+    - Hidrogen
+    answersEN:
+    - Oxygen
+    - Nitrogen
+    - Carbon dioxide
+    - Hydrogen
+    correctIndex: 2
+  icon: {fileID: 3286163911610860551, guid: 6f8762ce2f73e694ab0511e7049ededa, type: 3}
+  prefab3D: {fileID: 0}

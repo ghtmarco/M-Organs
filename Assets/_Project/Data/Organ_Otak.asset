@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef629798278171449bd9e35b056d9f1f, type: 3}
+  m_Name: Organ_Otak
+  m_EditorClassIdentifier: Assembly-CSharp::OrganDefinition
+  organKey: otak
+  number: 02
+  latinName: Cerebrum
+  organTone: {r: 0.24705882, g: 0.16470589, b: 0.43137255, a: 1}
+  paletteHue: {r: 0.47843137, g: 0.43529412, b: 0.39215687, a: 1}
+  paletteSoft: {r: 0.9098039, g: 0.88235295, b: 0.8235294, a: 1}
+  paletteDeep: {r: 0.2470588, g: 0.1058824, b: 0.4784314, a: 1}
+  nameID: Otak
+  nameEN: Brain
+  kickerID: Sistem saraf
+  taglineID: Lipatan-lipatan untuk muat lebih banyak.
+  paragraphID: Permukaan otak berlipat agar luasnya cukup. Bagian belakang, cerebellum,
+    mengatur keseimbangan. Bagian depan untuk berpikir dan mengambil keputusan.
+  funfactID: "Otak menggunakan energi sekitar 20 watt \u2014 sebanding dengan bohlam
+    kecil."
+  kickerEN: Nervous system
+  taglineEN: Folded to fit more in.
+  paragraphEN: The brain's surface folds so its area can be larger. The cerebellum
+    at the back handles balance. The front handles thinking and choices.
+  funfactEN: "Your brain runs on about 20 watts \u2014 the same as a small bulb."
+  facts:
+  - labelID: Neuron
+    labelEN: Neurons
+    value: 86 miliar
+  - labelID: Berat
+    labelEN: Weight
+    value: "\u22481,4 kg"
+  - labelID: Energi
+    labelEN: Energy
+    value: 20% tubuh
+  quiz:
+  - questionID: 'Perkiraan jumlah neuron di otak:'
+    questionEN: 'Approximate neuron count:'
+    answersID:
+    - 1 juta
+    - 86 miliar
+    - 1 triliun
+    - 500 ribu
+    answersEN:
+    - 1 million
+    - 86 billion
+    - 1 trillion
+    - 500,000
+    correctIndex: 1
+  - questionID: 'Bagian otak yang mengatur keseimbangan:'
+    questionEN: 'Which part handles balance:'
+    answersID:
+    - Cerebrum
+    - Cerebellum
+    - Brainstem
+    - Hippocampus
+    answersEN:
+    - Cerebrum
+    - Cerebellum
+    - Brainstem
+    - Hippocampus
+    correctIndex: 1
+  - questionID: 'Persentase energi tubuh yang dipakai otak:'
+    questionEN: 'Share of body''s energy used:'
+    answersID:
+    - 2%
+    - 5%
+    - 20%
+    - 50%
+    answersEN:
+    - 2%
+    - 5%
+    - 20%
+    - 50%
+    correctIndex: 2
+  icon: {fileID: 3286163911610860551, guid: 97396ded51d2f2a4c80558f41ba04686, type: 3}
+  prefab3D: {fileID: 0}

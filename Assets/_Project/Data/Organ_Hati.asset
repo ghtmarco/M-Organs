@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef629798278171449bd9e35b056d9f1f, type: 3}
+  m_Name: Organ_Hati
+  m_EditorClassIdentifier: Assembly-CSharp::OrganDefinition
+  organKey: hati
+  number: 06
+  latinName: Hepar
+  organTone: {r: 0.43137255, g: 0.18039216, b: 0.10196078, a: 1}
+  paletteHue: {r: 0.8784314, g: 0.47843137, b: 0.37254903, a: 1}
+  paletteSoft: {r: 0.95686275, g: 0.8156863, b: 0.7607843, a: 1}
+  paletteDeep: {r: 0.43137255, g: 0.18039216, b: 0.10196078, a: 1}
+  nameID: Hati
+  nameEN: Liver
+  kickerID: Sistem pencernaan
+  taglineID: Pabrik kimia terbesar dalam tubuh, lebih dari 500 fungsi.
+  paragraphID: Hati adalah organ padat terbesar, beratnya sekitar 1,5 kg. Ia menyaring
+    racun dari darah, memproduksi empedu untuk pencernaan lemak, menyimpan glikogen
+    sebagai cadangan energi, dan mensintesis protein penting seperti albumin dan
+    faktor pembekuan.
+  funfactID: "Hati adalah satu-satunya organ yang bisa meregenerasi dirinya sendiri
+    \u2014 25% jaringan yang tersisa pun bisa tumbuh kembali menjadi ukuran penuh."
+  kickerEN: Digestive
+  taglineEN: The body's largest chemical factory, over 500 functions.
+  paragraphEN: The liver is the largest solid organ, weighing about 1.5 kg. It filters
+    toxins from blood, produces bile to digest fats, stores glycogen as energy reserve,
+    and synthesises key proteins such as albumin and clotting factors.
+  funfactEN: "The liver is the only organ that can fully regenerate \u2014 even 25%
+    of remaining tissue can grow back to full size."
+  facts:
+  - labelID: Berat
+    labelEN: Weight
+    value: "\u22481,5 kg"
+  - labelID: Fungsi
+    labelEN: Functions
+    value: '>500'
+  - labelID: Darah/menit
+    labelEN: Blood/min
+    value: 1,5 liter
+  quiz:
+  - questionID: 'Cairan yang diproduksi hati untuk mencerna lemak:'
+    questionEN: 'Fluid produced by the liver to digest fats:'
+    answersID:
+    - Insulin
+    - Empedu
+    - Asam lambung
+    - Amilase
+    answersEN:
+    - Insulin
+    - Bile
+    - Stomach acid
+    - Amylase
+    correctIndex: 1
+  - questionID: 'Organ padat terbesar dalam tubuh manusia:'
+    questionEN: 'The largest solid organ in the human body:'
+    answersID:
+    - Paru-paru
+    - Jantung
+    - Hati
+    - Limpa
+    answersEN:
+    - Lungs
+    - Heart
+    - Liver
+    - Spleen
+    correctIndex: 2
+  - questionID: 'Kemampuan unik hati yang tidak dimiliki organ lain:'
+    questionEN: 'The unique ability the liver has that other organs lack:'
+    answersID:
+    - Memompa darah
+    - Menyaring udara
+    - Meregenerasi dirinya sendiri
+    - Memproduksi hormon
+    answersEN:
+    - Pump blood
+    - Filter air
+    - Regenerate itself
+    - Produce hormones
+    correctIndex: 2
+  icon: {fileID: 3286163911610860551, guid: d6494a767dba80148a9fe2380d15c0b8, type: 3}
+  prefab3D: {fileID: 0}

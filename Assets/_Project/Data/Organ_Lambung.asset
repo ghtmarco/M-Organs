@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef629798278171449bd9e35b056d9f1f, type: 3}
+  m_Name: Organ_Lambung
+  m_EditorClassIdentifier: Assembly-CSharp::OrganDefinition
+  organKey: lambung
+  number: 03
+  latinName: Gaster
+  organTone: {r: 0.47843137, g: 0.25490198, b: 0.03137255, a: 1}
+  paletteHue: {r: 0.47843137, g: 0.43529412, b: 0.39215687, a: 1}
+  paletteSoft: {r: 0.9098039, g: 0.88235295, b: 0.8235294, a: 1}
+  paletteDeep: {r: 0.4784314, g: 0.254902, b: 0.0313726, a: 1}
+  nameID: Lambung
+  nameEN: Stomach
+  kickerID: Sistem pencernaan
+  taglineID: Kantong asam yang melindungi dirinya sendiri.
+  paragraphID: Lambung memecah makanan dengan asam klorida dan enzim. Lapisan lendir
+    di dalam mencegahnya tercerna sendiri.
+  funfactID: "Asamnya cukup kuat untuk melarutkan logam tipis \u2014 tapi lapisan
+    lendir tidak ikut tercerna."
+  kickerEN: Digestive
+  taglineEN: An acid bag that protects itself.
+  paragraphEN: The stomach breaks food down with hydrochloric acid and enzymes. A
+    mucus lining keeps it from digesting itself.
+  funfactEN: "The acid can dissolve thin metal \u2014 yet the mucus lining stays
+    intact."
+  facts:
+  - labelID: Kapasitas
+    labelEN: Capacity
+    value: "1\u20131,5 L"
+  - labelID: Cerna
+    labelEN: Digest
+    value: "4\u20135 jam"
+  - labelID: pH
+    labelEN: pH
+    value: "1,5\u20133,5"
+  quiz:
+  - questionID: 'Asam yang dihasilkan lambung:'
+    questionEN: 'Acid produced by the stomach:'
+    answersID:
+    - Sulfat
+    - Klorida
+    - Asetat
+    - Sitrat
+    answersEN:
+    - Sulfuric
+    - Hydrochloric
+    - Acetic
+    - Citric
+    correctIndex: 1
+  - questionID: 'Waktu rata-rata mencerna makanan:'
+    questionEN: 'Average digestion time:'
+    answersID:
+    - 1 jam
+    - "2\u20133 jam"
+    - "4\u20135 jam"
+    - 12 jam
+    answersEN:
+    - 1 hr
+    - "2\u20133 hr"
+    - "4\u20135 hr"
+    - 12 hr
+    correctIndex: 2
+  - questionID: 'Kapasitas lambung dewasa:'
+    questionEN: 'Adult stomach capacity:'
+    answersID:
+    - 0,2 L
+    - 0,5 L
+    - "1\u20131,5 L"
+    - 5 L
+    answersEN:
+    - 0.2 L
+    - 0.5 L
+    - "1\u20131.5 L"
+    - 5 L
+    correctIndex: 2
+  icon: {fileID: 3286163911610860551, guid: 18985aa736ce3844fa35a2d7f9f51eba, type: 3}
+  prefab3D: {fileID: 0}
