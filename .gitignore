@@ -18,6 +18,7 @@ Recordings/
 *.userprefs
 *.pidb
 .vs/
+.vscode/
 ExportedObj/
 
 # OS
