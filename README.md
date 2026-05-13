@@ -2,7 +2,7 @@
 
 An AR anatomy learning app for Android and iOS, built with Unity 6. Point your phone at a flat surface, tap to place, and a life-size 3D organ appears in your room. Each organ comes with a detail screen full of facts and a short quiz to test what you picked up.
 
-The app currently covers six organs: heart (jantung), brain (otak), stomach (lambung), liver (hati), lungs (paru), and kidneys (ginjal). All text is bilingual — Indonesian and English — and users can switch between three color themes (light, dark, mint) from the settings screen.
+The app currently covers six organs: heart (jantung), brain (otak), stomach (lambung), liver (hati), lungs (paru), and kidneys (ginjal). All text is bilingual in Indonesian and English, and users can switch between three color themes (light, dark, mint) from the settings screen.
 
 > Course: **MOBI6069001 - LEC** · Binus University
 
@@ -14,13 +14,13 @@ The app currently covers six organs: heart (jantung), brain (otak), stomach (lam
 
 ## How it works
 
-The app loads a persistent scene (`_Persistent`) that holds singleton managers for app state, theming, localization, and scene transitions. From there, each screen is its own Unity scene — splash, onboarding, organ picker, detail view, AR placement, quiz, and settings.
+The app loads a persistent scene (`_Persistent`) that holds singleton managers for app state, theming, localization, and scene transitions. From there, each screen is its own Unity scene. These include splash, onboarding, organ picker, detail view, AR placement, quiz, and settings.
 
-Organ data lives in ScriptableObjects. Each `OrganDefinition` asset stores the organ's bilingual names, descriptions, a fun fact, a fact table, quiz questions with answers, a line-art icon, and a reference to the 3D model prefab. Adding a new organ means creating a new asset in the Unity inspector — no code changes needed.
+Organ data lives in ScriptableObjects. Each `OrganDefinition` asset stores the organ's bilingual names, descriptions, a fun fact, a fact table, quiz questions with answers, a line-art icon, and a reference to the 3D model prefab. Adding a new organ means creating a new asset in the Unity inspector. No code changes are needed.
 
 The AR scene uses AR Foundation with ARCore on Android and ARKit on iOS. Once a surface is detected, the user taps to place the organ model. Pinch to scale, drag to reposition. A collapsible bottom sheet shows organ info and facts while in AR view.
 
-Theming is handled through `MO2ThemeData` ScriptableObjects (one per theme). Every screen subscribes to theme change events and recolors itself on the fly. Same pattern for language — switch from Indonesian to English and every label updates without reloading the scene.
+Theming is handled through `MO2ThemeData` ScriptableObjects (one per theme). Every screen subscribes to theme change events and recolors itself on the fly. The same pattern applies to language. If you switch from Indonesian to English, every label updates without reloading the scene.
 
 ## Tech stack
 
@@ -57,7 +57,7 @@ Assets/
 
 | # | Scene | What it does |
 |---|-------|--------------|
-| — | _Persistent | Loads first, stays loaded. Holds DontDestroyOnLoad managers. |
+| - | _Persistent | Loads first, stays loaded. Holds DontDestroyOnLoad managers. |
 | 1 | 01_Splash | App entry with fade animation |
 | 2 | 02_Onboarding | First-launch walkthrough (skipped after completion) |
 | 3 | 03_Picker | Organ selection list |
@@ -70,7 +70,7 @@ Assets/
 
 1. Clone the repo
 2. Download **Vuforia Engine 11.4.4** from the [Vuforia Developer Portal](https://developer.vuforia.com/downloads/sdk) and place `com.ptc.vuforia.engine-11.4.4.tgz` inside the `Packages/` folder
-3. Open in **Unity 6** (6000.0.x or later) — Unity resolves the package on import
+3. Open in **Unity 6** (6000.0.x or later). Unity resolves the package on import.
 4. Open `Assets/_Project/Scenes/_Persistent.unity` and press Play, or build for Android/iOS
 
 AR needs a physical device. Android 8.0+ with ARCore support, or iOS 11+ with ARKit. In-editor, the AR scene falls back to simulated placement so you can still test the UI flow.
