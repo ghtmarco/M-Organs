@@ -2,7 +2,7 @@
 
 An AR anatomy learning app for Android and iOS, built with Unity 6. Point your phone at a flat surface, tap to place, and a life-size 3D organ appears in your room. Each organ comes with a detail screen full of facts and a short quiz to test what you picked up.
 
-The app currently covers six organs: heart (jantung), brain (otak), stomach (lambung), liver (hati), lungs (paru), and kidneys (ginjal). All text is bilingual in Indonesian and English, and users can switch between three color themes (light, dark, mint) from the settings screen.
+The app currently covers six organs: heart, brain, stomach. All text is bilingual in Indonesian and English, and users can switch between three color themes from the settings screen.
 
 > Course: **MOBI6069001 - LEC** · Binus University
 
